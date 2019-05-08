@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=1.0, maximum-scale=4.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script async src="js/waifu-tips.js"></script>
+	<script src="js/live2d.js"></script>
+</head>
+
+<body>
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+  <script type="text/javascript">
+    loadlive2d("live2d", "pio/model.json");
+ </script>  
+</div>	
+</body>
+</html>
